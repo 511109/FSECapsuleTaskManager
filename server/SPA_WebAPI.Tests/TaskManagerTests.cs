@@ -51,7 +51,7 @@ namespace SPA_WebAPI.Tests
             // Set up Prerequisites   
             var controller = new Controllers.TasksController();
             // Act on Test  
-            var response = controller.DeleteTask(6);
+            var response = controller.DeleteTask(8);
             // Assert the result  
             Assert.IsTrue(response);
         }
@@ -62,7 +62,7 @@ namespace SPA_WebAPI.Tests
             // Set up Prerequisites   
             var controller = new Controllers.TasksController();
             // Act on Test  
-            var response = controller.ViewTask(4);
+            var response = controller.ViewTask(2);
             // Assert the result  
             Assert.IsTrue(response != null);
         }
